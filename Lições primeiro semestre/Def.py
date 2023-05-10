@@ -37,16 +37,35 @@ def imprimir_lista(lista):
 def pares(lista):
     print('*- IMPRIMINDO PARES -*')
     print('----------------------')
+    list = []
     for i in lista:
         if i % 2 == 0:
             print(f'Elemento pares: {i}')
+            list.append(i)
+    print(list)
+    return list
 
 def impares(lista):
     print('*- IMPRIMINDO PARES -*')
     print('----------------------')
+    list = []
     for i in lista:
         if i % 2 != 0:
             print(f'Elemento impares: {i}')
+            list.append(i)
+    print(list)
+    return list
+
+def find_item(lista, search_item):
+    for item in lista:
+        if item == search_item:
+            print("Sim, item está na lista")
+            return True
+    print("Item não encontrado!")
+    return False
+    
+    
+
 
 
 def principal():
@@ -57,6 +76,8 @@ def principal():
     imprimir_lista(lista)
     pares(lista)
     impares(lista)
+    item = int(input("busque um número: "))
+    find_item(lista, item)
     
 
 #Programa principal 
