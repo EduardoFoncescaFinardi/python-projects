@@ -64,10 +64,6 @@ def find_item(lista, search_item):
     print("Item não encontrado!")
     return False
     
-    
-
-
-
 def principal():
     print('*- PRINCIPAL -*')
     print('---------------')
