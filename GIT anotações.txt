@@ -1,0 +1,23 @@
+convencional commits
+
+
+
+abrir terminal.
+cd python-projects (acessa a pasta do repositório GIT)
+git status (checar o que foi mudado de fato)
+git add . (add todos os novos documentos pro commit)
+git commit -m "feat:description" (adicionar um comentário para o commit)
+git push (Inserir no repositório GIT as novas alterações)
+FIM
+
+2) Access -> C:\Users\USER\.ssh
+
+3) CMD -> type id_rsa.pub | clip
+
+4) Paste public ssh key in GitHub settings.
+
+5) $ git config --global user.name "nome"
+$ git config --global user.email email@email.com
+
+
+Done
