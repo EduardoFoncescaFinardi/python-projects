@@ -1,0 +1,13 @@
+Sistema de Gerenciamento de Tarefas: Crie um programa que permita aos usuários adicionar, editar e visualizar tarefas. Você pode implementar recursos como adicionar uma descrição, definir prioridades, agendar datas de vencimento e marcar tarefas como concluídas.
+
+Calculadora Financeira: Desenvolva uma calculadora que ofereça recursos financeiros, como cálculos de juros compostos, conversão de moedas, cálculo de empréstimos e investimentos.
+
+Sistema de Gestão de Estoque: Crie um programa que permita a gestão de um estoque de produtos. Os usuários devem ser capazes de adicionar itens, atualizar quantidades, visualizar o status do estoque e gerar relatórios.
+
+Gerador de Senhas: Implemente um gerador de senhas que permita aos usuários criar senhas seguras com base em critérios como comprimento, uso de letras maiúsculas, letras minúsculas, números e caracteres especiais.
+
+Sistema de Cadastro de Clientes: Crie um sistema para armazenar informações de clientes, como nome, endereço, telefone e e-mail. Você pode adicionar recursos como busca de clientes, atualização de informações e geração de relatórios.
+
+Aplicativo de Notas: Desenvolva um aplicativo de notas simples que permita aos usuários criar, editar e excluir notas. Você pode adicionar recursos como marcação de prioridades, categorização de notas e pesquisa.
+
+Calculadora de IMC: Crie uma calculadora de Índice de Massa Corporal (IMC) que receba altura e peso como entrada e calcule o IMC correspondente. Você pode adicionar recursos adicionais, como classificação de peso e sugestões para alcançar um peso saudável.
