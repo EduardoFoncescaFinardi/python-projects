@@ -1,6 +1,8 @@
-Sistema de Gerenciamento de Tarefas: Crie um programa que permita aos usuários adicionar, editar e visualizar tarefas. Você pode implementar recursos como adicionar uma descrição, definir prioridades, agendar datas de vencimento e marcar tarefas como concluídas.
+Sistema de Gerenciamento de Tarefas: 
+  Crie um programa que permita aos usuários adicionar, editar e visualizar tarefas. Você pode implementar recursos como adicionar uma descrição, definir prioridades, agendar datas de vencimento e marcar tarefas como concluídas.
 
-Calculadora Financeira: Desenvolva uma calculadora que ofereça recursos financeiros, como cálculos de juros compostos, conversão de moedas, cálculo de empréstimos e investimentos.
+Calculadora Financeira:     
+  Desenvolva uma calculadora que ofereça recursos financeiros, como cálculos de juros compostos, conversão de moedas, cálculo de empréstimos e investimentos.
 
 Sistema de Gestão de Estoque: Crie um programa que permita a gestão de um estoque de produtos. Os usuários devem ser capazes de adicionar itens, atualizar quantidades, visualizar o status do estoque e gerar relatórios.
 
