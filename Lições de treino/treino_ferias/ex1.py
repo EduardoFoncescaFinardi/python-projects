@@ -18,15 +18,18 @@ def task_edit(task_list):
   print("Do you want to edit any task?")
   confirmation = int(input("""1 - Yes 
 2 - No?
-"""))
+response: """))
   
   match confirmation: 
     case 1:
-      print(task_list)
-      which_task = int(input("Which one?: "))
+      j = 1
+      for i in range(len(task_list)):
+        print(f'{j} - {task_list[i]}')
+        j += 1
     
     case 2:
       print
+      
 
 
 def main():
