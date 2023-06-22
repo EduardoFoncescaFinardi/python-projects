@@ -19,18 +19,23 @@ def task_edit(task_list):
   confirmation = int(input("""1 - Yes 
 2 - No?
 response: """))
-  
-  match confirmation: 
-    case 1:
-      j = 1
-      for i in range(len(task_list)):
-        print(f'{j} - {task_list[i]}')
-        j += 1
-    
-    case 2:
-      print
-      
+  while confirmation not in [1,2]:
+    print("Press a valid number!")
+    confirmation = int(input("""1 - Yes 
+2 - No?
+response: """))
 
+  match confirmation:   
+      case 1:
+        j = 1
+        for i in range(len(task_list)):
+          print(f'{j} - {task_list[i]}')
+          j += 1 
+        a = input("Which task(s):")
+
+      case 2:
+        print("No tasks will be edited.")
+      
 
 def main():
   task_list = task_add()
