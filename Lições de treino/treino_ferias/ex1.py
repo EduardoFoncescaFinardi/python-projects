@@ -27,18 +27,33 @@ response: """))
 
   match confirmation:   
       case 1:
-        j = 1
+        j = 0
         for i in range(len(task_list)):
           print(f'{j} - {task_list[i]}')
           j += 1 
-        a = input("Which task(s):")
-
+        #--------------------------------
+        which_task = int(input("Which task(s):"))
+        new_task = input("Describe task: ")
+        task_list[which_task] = new_task
+        #--------------------------------
+        j = 0
+        for i in range(len(task_list)):
+          print(f'{j} - {task_list[i]}')
+          j += 1 
+      
       case 2:
         print("No tasks will be edited.")
       
 
 def main():
   task_list = task_add()
+
   task_edit(task_list)
+  repeat_process = int(input("""Do you want to change any task again?
+  1 - Yes
+  2 - No
+  Response: """))
+  while repeat_process == 1:
+    task_edit(task_list)
 
 main()
